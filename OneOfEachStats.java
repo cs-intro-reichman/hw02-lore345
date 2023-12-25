@@ -39,12 +39,12 @@ public class OneOfEachStats {
             }        }
         double avg=  sumOfNumOfChildren /t;
         int commonNumOfChildren= Math.max(numOfFamilyWithTwoChild,Math.max(numOfFamilyWithThreeChild,numOfFamilyWithFourPlusChild));
-        System.out.println("Average "+avg+ " children to get at least one of each gender");
+        System.out.println("Average "+avg+ " children to get at least one of each gender.");
         System.out.println("Number of families with 2 children: "+ numOfFamilyWithTwoChild);
         System.out.println("Number of families with 3 children: "+ numOfFamilyWithThreeChild);
         System.out.println("Number of families with 4 or more children: "+ numOfFamilyWithFourPlusChild);
         String result = ((commonNumOfChildren == numOfFamilyWithTwoChild) ? " "+ 2 : (commonNumOfChildren == numOfFamilyWithThreeChild) ? " "+3:" "+4+" or more");
 
-        System.out.println("The most common number of children is"+result);
+        System.out.println("The most common number of children is"+result+".");
     }
 }
