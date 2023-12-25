@@ -39,7 +39,7 @@ public class OneOfEachStats {
             }        }
         double avg=  sumOfNumOfChildren /t;
         int commonNumOfChildren= Math.max(numOfFamilyWithTwoChild,Math.max(numOfFamilyWithThreeChild,numOfFamilyWithFourPlusChild));
-        System.out.println("Average "+avg+ " children to get at least one of each gender.");
+        System.out.println("Average: "+avg+ " children to get at least one of each gender.");
         System.out.println("Number of families with 2 children: "+ numOfFamilyWithTwoChild);
         System.out.println("Number of families with 3 children: "+ numOfFamilyWithThreeChild);
         System.out.println("Number of families with 4 or more children: "+ numOfFamilyWithFourPlusChild);
