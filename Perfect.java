@@ -5,7 +5,7 @@ public class Perfect {
         int sum = 1;
         String perfect = a + " is a perfect number since " + a + " = 1";
 
-        for (int i = 2; i < a && sum != a; i++) {
+        for (int i = 2; i < a / 2 != a; i++) {
             if (a % i == 0) {
                 perfect = perfect + " + " + i;
                 sum = sum + i;
