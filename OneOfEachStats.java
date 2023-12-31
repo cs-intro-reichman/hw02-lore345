@@ -5,7 +5,7 @@ public class OneOfEachStats {
     public static void main(String[] args) {
         
 
-        int t = Integer.parseInt(args[0]);;
+        int num = Integer.parseInt(args[0]);;
         int seed = Integer.parseInt(args[1]);;
         Random generator = new Random(seed);
 
@@ -37,7 +37,7 @@ public class OneOfEachStats {
             }else if(numOfChild>=4) {
                 numOfFamilyWithFourPlusChild++;
             }        }
-        double avg=  sumOfNumOfChildren /t;
+        double avg=  sumOfNumOfChildren /num;
         int commonNumOfChildren= Math.max(numOfFamilyWithTwoChild,Math.max(numOfFamilyWithThreeChild,numOfFamilyWithFourPlusChild));
         System.out.println("Average: "+avg+ " children to get at least one of each gender.");
         System.out.println("Number of families with 2 children: "+ numOfFamilyWithTwoChild);
