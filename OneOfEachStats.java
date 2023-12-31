@@ -16,7 +16,7 @@ public class OneOfEachStats {
         int numOfFamilyWithThreeChild=0;
         int numOfFamilyWithFourPlusChild=0;
         int numOfChild=0;
-        for (int i = 0; i <t ; i++) {
+        for (int i = 0; i <num ; i++) {
             isAGirl=false;
             isABoy=false;
             numOfChild=0;
